@@ -1,0 +1,37 @@
+﻿@model List<DemoApp.Model.UserInfoModel>
+@{
+    ViewData["Title"] = "GetUserInfo";
+}
+
+<div class="text-center">
+    <h1 class="display-4">User Information</h1>
+
+</div>
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Total Album</th>
+                <th>Total Photo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.name</td>
+                        <td>@item.email</td>
+                        <td>@item.userAlbumModels.Count()</td>
+                        <td>@item.userAlbumPhotoModels.Count()</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
