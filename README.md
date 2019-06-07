@@ -32,6 +32,10 @@ When user will click on userinfo link, he will be able to see all user info with
 ```bash
 # scheduler :
 For scheduler I have used HangFire
-Install handfire From Nuget
+# Install HangFire From Nuget
 Install-Package HangFire.Core -Version 1.7.3
-```   
+```
+>Register HangFire in Startup.cs file
+![alt text]()
+![alt text]()
+
