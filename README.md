@@ -6,4 +6,6 @@ In this App we have used separate class library for entities, service/interface,
 ```
 
 >Project structure
-![alt text](https://github.com/wondercrazy15/React_Redux_Firebase/blob/master/Image/Project_Stracture.png)
+![alt text]()
+
+In this app we have used .Net Core 2.2 Frontend with code first approach and MS Sql for backend.
