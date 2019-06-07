@@ -2,13 +2,13 @@
 
 ```bash
 # DemoApp Architecture :
-In this App we have used separate class library for entities, service/interface, model and web Project.
+In this App I have used separate class library for entities, service/interface, model and web Project.
 ```
 
 >Project structure
 ![alt text]()
 
-In this app we have used .Net Core 2.2 Frontend with code first approach and MS Sql for backend.
+In this app I have used .Net Core 2.2 Frontend with code first approach and MS Sql for backend.
 
 # DemoApp functionality:
 When user run this project below default landing page will be displayed.
@@ -31,5 +31,7 @@ When user will click on userinfo link, he will be able to see all user info with
    
 ```bash
 # scheduler :
-For scheduler we have used handfire  
+For scheduler I have used HangFire
+Install handfire From Nuget
+Install-Package HangFire.Core -Version 1.7.3
 ```   
