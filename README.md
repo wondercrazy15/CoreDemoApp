@@ -36,6 +36,6 @@ For scheduler I have used HangFire
 Install-Package HangFire.Core -Version 1.7.3
 ```
 >Register HangFire in Startup.cs file
-![alt text]()
+![alt text](![hang01](https://user-images.githubusercontent.com/30141700/59111147-0f694880-895e-11e9-84e1-a6de605ac327.png))
 ![alt text]()
 
