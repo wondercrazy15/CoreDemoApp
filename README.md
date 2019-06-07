@@ -41,4 +41,4 @@ Register HangFire in Startup.cs file
 
 ![image](https://user-images.githubusercontent.com/30141700/59111486-c1087980-895e-11e9-9b0d-aebc9ca57cec.png)
 
-!
+
